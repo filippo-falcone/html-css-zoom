@@ -38,7 +38,7 @@ body {
     background-color: lightgreen;
 }
 
-.debug main .card {
+.debug main .card-partecipant {
     height: 150px;
     background-color: lightsalmon;
 }
@@ -62,7 +62,9 @@ body {
 /* #endregion */
 
 /* #region TYPOGRAPHY */
+body,
 .btn-header {
+    font-family: sans-serif;
     color: #ffffff;
 }
 
@@ -92,18 +94,28 @@ header .windows-btn {
 /* #region HEADER */
 main {
     height: calc(100vh - 136px);
-    scroll-behavior: auto;
-    padding: 28px 90px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 main .container {
+    margin: 36px 90px 90px;
     display: flex;
     flex-wrap: wrap;
 }
 
-main .card {
-    max-width: 254px;
-    margin: 6px;
+.card-partecipant {
+    position: relative;
+    margin: 0 6px 16px;
+}
+
+
+main .partecipant {
+    background: rgba(103, 112, 123, 0.5);
+    padding: 4px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
 }
 
 /* #endregion */
@@ -111,6 +123,7 @@ main .card {
 /* #region HEADER */
 footer {
     height: 84px;
+    background: #222222;
     display: flex;
     justify-content: space-between;
 }
