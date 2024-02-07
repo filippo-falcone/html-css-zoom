@@ -8,7 +8,7 @@
 /* #endregion */
 
 /* #region DEBUG */
-.debug>* {
+.debug * {
     border: 2px dashed lightsteelblue;
 }
 
@@ -24,6 +24,16 @@
 
 .debug main {
     background: lightblue;
+}
+
+.debug main>.container {
+    min-height: 100%;
+    background-color: lightgreen;
+}
+
+.debug main .card {
+    height: 150px;
+    background-color: lightsalmon;
 }
 
 .debug footer {
@@ -45,6 +55,13 @@ header {
 /* #region HEADER */
 main {
     height: calc(100vh - 136px);
+    scroll-behavior: auto;
+    padding: 28px 90px;
+}
+
+main .card {
+    max-width: 254px;
+    margin: 6px;
 }
 
 /* #endregion */
