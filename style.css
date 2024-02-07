@@ -63,9 +63,29 @@ body {
 
 /* #region TYPOGRAPHY */
 body,
-.btn-header {
+.btn {
     font-family: sans-serif;
     color: #ffffff;
+}
+
+.function>i:first-child {
+    font-size: 30px;
+}
+
+.function .fa-solid.fa-angle-up {
+    font-size: 12px;
+}
+
+.function div {
+    font-size: 13px;
+}
+
+.fa-solid.fa-share-from-square {
+    color: #4bc800;
+}
+
+.close-call {
+    color: #cc3142;
 }
 
 /* #endregion */
@@ -82,7 +102,7 @@ header .windows-btn {
     gap: 8px;
 }
 
-.btn-header {
+.btn.btn-header {
     padding: 4px;
     background: #4a4a4a;
     border: none;
@@ -91,7 +111,7 @@ header .windows-btn {
 
 /* #endregion */
 
-/* #region HEADER */
+/* #region MAIN */
 main {
     height: calc(100vh - 136px);
     margin: 0 auto;
@@ -126,6 +146,55 @@ footer {
     background: #222222;
     display: flex;
     justify-content: space-between;
+}
+
+.multimedia,
+nav,
+.close-call {
+    padding: 16px 10px;
+}
+
+.multimedia,
+nav {
+    display: flex;
+}
+
+.function {
+    margin: 0 18px 0 0;
+}
+
+footer [class^="fa"] :not(:last-child) {
+    margin: 0 24px 10px 0;
+}
+
+.fa-solid.fa-microphone,
+.fa-solid.fa-chart-column,
+.fa-solid.fa-record-vinyl {
+    margin-left: 6px;
+}
+
+.fa-solid.fa-video {
+    margin-left: 18px;
+}
+
+.fa-solid.fa-user-group {
+    margin-left: 44px;
+}
+
+.fa-solid.fa-share-from-square {
+    margin-left: 26px;
+}
+
+.fa-solid.fa-table-cells-large {
+    margin-left: 36px;
+}
+
+.close-call {
+    height: 84px;
+    padding: 0 21px;
+    background: #4a4a4a;
+    text-align: center;
+    line-height: 84px;
 }
 
 /* #endregion */
