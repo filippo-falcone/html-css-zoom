@@ -40,6 +40,18 @@
     background: lightcoral;
 }
 
+.debug footer .multimedia {
+    background: lightskyblue;
+}
+
+.debug footer nav {
+    background: lightseagreen;
+}
+
+.debug footer .close-call {
+    background: lightsteelblue;
+}
+
 /* #endregion */
 
 /* #region HEADER */
@@ -74,6 +86,8 @@ main .card {
 /* #region HEADER */
 footer {
     height: 84px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* #endregion */
