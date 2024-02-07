@@ -6,3 +6,43 @@
 }
 
 /* #endregion */
+
+/* #region DEBUG */
+.debug>* {
+    border: 2px dashed lightsteelblue;
+}
+
+.debug header {
+    background: lightpink;
+}
+
+.debug main {
+    background: lightblue;
+}
+
+.debug footer {
+    background: lightcoral;
+}
+
+/* #endregion */
+
+/* #region HEADER */
+header {
+    height: 52px;
+}
+
+/* #endregion */
+
+/* #region HEADER */
+main {
+    height: calc(100vh - 136px);
+}
+
+/* #endregion */
+
+/* #region HEADER */
+footer {
+    height: 84px;
+}
+
+/* #endregion */
