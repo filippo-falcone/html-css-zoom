@@ -59,6 +59,11 @@ main {
     padding: 28px 90px;
 }
 
+main .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 main .card {
     max-width: 254px;
     margin: 6px;
