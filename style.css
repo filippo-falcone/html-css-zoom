@@ -7,6 +7,13 @@
 
 /* #endregion */
 
+/* #region GENERAL */
+body {
+    background: #000000;
+}
+
+/* #endregion */
+
 /* #region DEBUG */
 .debug * {
     border: 2px dashed lightsteelblue;
@@ -54,12 +61,30 @@
 
 /* #endregion */
 
+/* #region TYPOGRAPHY */
+.btn-header {
+    color: #ffffff;
+}
+
+/* #endregion */
+
 /* #region HEADER */
 header {
     height: 52px;
     padding: 4px 4px 20px;
+}
+
+header .windows-btn {
     display: flex;
     justify-content: right;
+    gap: 8px;
+}
+
+.btn-header {
+    padding: 4px;
+    background: #4a4a4a;
+    border: none;
+    border-radius: 5px;
 }
 
 /* #endregion */
