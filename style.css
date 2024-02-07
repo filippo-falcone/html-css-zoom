@@ -16,6 +16,12 @@
     background: lightpink;
 }
 
+.debug .windows-btn {
+    width: 149px;
+    height: 26px;
+    background: lightyellow;
+}
+
 .debug main {
     background: lightblue;
 }
@@ -29,6 +35,9 @@
 /* #region HEADER */
 header {
     height: 52px;
+    padding: 4px 4px 20px;
+    display: flex;
+    justify-content: right;
 }
 
 /* #endregion */
